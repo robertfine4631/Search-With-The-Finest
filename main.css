@@ -29,12 +29,14 @@ input {
 	background: #bcd;
 	border: 1px solid #def;
 	color: #456;
+	display: block;
 }
 
 button {
 	background: #ada;
 	border: 1px solid #afa;
 	color: #343;
+	display: block;
 }
 /* Class Specific Styles */
 
