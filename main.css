@@ -1,62 +1,66 @@
 /*Global Elements*/
 
 body {
-	font-family: Muli, Helvetica, sans-serif;
-	background-color: #456;
-	color: #bcd;
-	font-size: 62.5%;
+  font-family: Muli, Helvetica, sans-serif;
+  background-color: #456;
+  color: #bcd;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .cool-search {
-	height: calc(100vh - 50px);
+  height: calc(100vh - 50px);
 
 }
 
 
 footer {
-	height: 50px;
-	line-height: 50px;
-	font-size: 1.5em;
-	text-align: center;
-	background-color: #345;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #345;
 }
 /* Search Engine Styles */
 
 /** {
-	border: 1px solid red;
+  border: 1px solid red;
 }*/
 
 h1 {
-	font-family: Pacifico, cursive, sans-serif;
-	font-size: 6em;
-	text-align: center;
-	margin: 0;
+  font-family: Pacifico, cursive, sans-serif;
+  font-size: 6em;
+  text-align: center;
+  margin: 0;
 }
 
 form {
-	width: 70%;
-	/*background: orange;*/
-	margin-left: auto;
-	margin-right: auto;
+  width: 70%;
+  /*background: orange;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
 input {
-	background: #bcd;
-	border: 1px solid #def;
-	color: #456;
-	display: block;
-	font-size: 2em;
-	width: 100%;
+  background: #bcd;
+  border: 1px solid #def;
+  color: #456;
+  display: block;
+  font-size: 2em;
+  width: 100%;
 }
 
 button {
-	background: #ada;
-	border: 1px solid #afa;
-	color: #343;
-	display: block;
-	font-size: 3em;
-	width: 100%;
-	margin-top: 10px;
+  background: #ada;
+  border: 1px solid #afa;
+  color: #343;
+  display: block;
+  font-size: 3em;
+  width: 100%;
+  margin-top: 10px;
 }
 /* Class Specific Styles */
 
