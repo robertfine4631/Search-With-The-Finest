@@ -6,6 +6,20 @@ body {
 	color: #bcd;
 	font-size: 62.5%;
 }
+
+.cool-search {
+	height: calc(100vh - 50px);
+
+}
+
+
+footer {
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: #345;
+}
 /* Search Engine Styles */
 
 /** {
@@ -16,6 +30,7 @@ h1 {
 	font-family: Pacifico, cursive, sans-serif;
 	font-size: 6em;
 	text-align: center;
+	margin: 0;
 }
 
 form {
@@ -30,6 +45,8 @@ input {
 	border: 1px solid #def;
 	color: #456;
 	display: block;
+	font-size: 2em;
+	width: 100%;
 }
 
 button {
@@ -37,6 +54,9 @@ button {
 	border: 1px solid #afa;
 	color: #343;
 	display: block;
+	font-size: 3em;
+	width: 100%;
+	margin-top: 10px;
 }
 /* Class Specific Styles */
 
